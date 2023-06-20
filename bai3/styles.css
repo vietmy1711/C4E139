@@ -1,0 +1,136 @@
+:root {
+    --text-color: #151B32;
+    --border: 1px solid #BFC8E6;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--text-color);
+    margin-top: 100px;
+}
+
+.main-nav {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 70px;
+
+}
+
+.search-bar input {
+    border:0;
+    outline:0;
+}
+
+.search-bar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    opacity: 0.7;
+    border:  var(--border);
+    border-radius: 4px;
+    height: 64px;
+    display: flex;
+}
+
+.search-bar i {
+    width: 32px;
+    height: 32px;
+    margin: 16px 8px 16px 16px;
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #849FFF;
+}
+
+.nav-link  {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.active {
+    background-color: #849FFF;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.card { 
+    min-height: 208px;
+
+}
+
+.card img {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 16px;
+    width: 97px;
+    height: 97px;
+    border-radius: 100%;
+}
+
+.card div {
+    margin-top: 44px;
+    align-items: start;
+    justify-content: start;
+}
+
+.card div h3 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--text-color);
+}
+
+.card div h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color);
+
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.chip {
+    border:  var(--border);
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+
+    width: 61px;
+    height: 22px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #516FD5;
+}
